@@ -48,46 +48,38 @@
  10.0.0.0:0 [4] Node 1.0.0.0:0 joined at time 4
  9.0.0.0:0 [4] Node 9.0.0.0:0 joined at time 4
  9.0.0.0:0 [4] Node 1.0.0.0:0 joined at time 4
- 5.0.0.0:0 [6] Node 2.0.0.0:0 joined at time 6
- 5.0.0.0:0 [6] Node 3.0.0.0:0 joined at time 6
- 5.0.0.0:0 [6] Node 4.0.0.0:0 joined at time 6
- 5.0.0.0:0 [6] Node 6.0.0.0:0 joined at time 6
- 5.0.0.0:0 [6] Node 7.0.0.0:0 joined at time 6
- 5.0.0.0:0 [6] Node 8.0.0.0:0 joined at time 6
- 5.0.0.0:0 [6] Node 9.0.0.0:0 joined at time 6
- 5.0.0.0:0 [6] Node 10.0.0.0:0 joined at time 6
- 2.0.0.0:0 [6] Node 3.0.0.0:0 joined at time 6
- 2.0.0.0:0 [6] Node 4.0.0.0:0 joined at time 6
- 2.0.0.0:0 [6] Node 5.0.0.0:0 joined at time 6
- 2.0.0.0:0 [6] Node 6.0.0.0:0 joined at time 6
- 2.0.0.0:0 [6] Node 7.0.0.0:0 joined at time 6
- 2.0.0.0:0 [6] Node 8.0.0.0:0 joined at time 6
- 2.0.0.0:0 [6] Node 9.0.0.0:0 joined at time 6
- 2.0.0.0:0 [6] Node 10.0.0.0:0 joined at time 6
- 9.0.0.0:0 [11] Node 5.0.0.0:0 joined at time 11
- 9.0.0.0:0 [11] Node 2.0.0.0:0 joined at time 11
- 9.0.0.0:0 [11] Node 3.0.0.0:0 joined at time 11
- 9.0.0.0:0 [11] Node 4.0.0.0:0 joined at time 11
- 9.0.0.0:0 [11] Node 6.0.0.0:0 joined at time 11
- 9.0.0.0:0 [11] Node 7.0.0.0:0 joined at time 11
- 9.0.0.0:0 [11] Node 8.0.0.0:0 joined at time 11
- 9.0.0.0:0 [11] Node 10.0.0.0:0 joined at time 11
+ 7.0.0.0:0 [6] Node 2.0.0.0:0 joined at time 6
+ 7.0.0.0:0 [6] Node 3.0.0.0:0 joined at time 6
+ 7.0.0.0:0 [6] Node 4.0.0.0:0 joined at time 6
+ 7.0.0.0:0 [6] Node 5.0.0.0:0 joined at time 6
+ 7.0.0.0:0 [6] Node 6.0.0.0:0 joined at time 6
+ 7.0.0.0:0 [6] Node 8.0.0.0:0 joined at time 6
+ 7.0.0.0:0 [6] Node 9.0.0.0:0 joined at time 6
+ 7.0.0.0:0 [6] Node 10.0.0.0:0 joined at time 6
+ 4.0.0.0:0 [6] Node 2.0.0.0:0 joined at time 6
+ 4.0.0.0:0 [6] Node 3.0.0.0:0 joined at time 6
+ 4.0.0.0:0 [6] Node 5.0.0.0:0 joined at time 6
+ 4.0.0.0:0 [6] Node 6.0.0.0:0 joined at time 6
+ 4.0.0.0:0 [6] Node 7.0.0.0:0 joined at time 6
+ 4.0.0.0:0 [6] Node 8.0.0.0:0 joined at time 6
+ 4.0.0.0:0 [6] Node 9.0.0.0:0 joined at time 6
+ 4.0.0.0:0 [6] Node 10.0.0.0:0 joined at time 6
+ 10.0.0.0:0 [11] Node 4.0.0.0:0 joined at time 11
+ 10.0.0.0:0 [11] Node 2.0.0.0:0 joined at time 11
+ 10.0.0.0:0 [11] Node 3.0.0.0:0 joined at time 11
+ 10.0.0.0:0 [11] Node 5.0.0.0:0 joined at time 11
+ 10.0.0.0:0 [11] Node 6.0.0.0:0 joined at time 11
+ 10.0.0.0:0 [11] Node 7.0.0.0:0 joined at time 11
+ 10.0.0.0:0 [11] Node 8.0.0.0:0 joined at time 11
+ 10.0.0.0:0 [11] Node 9.0.0.0:0 joined at time 11
+ 6.0.0.0:0 [11] Node 4.0.0.0:0 joined at time 11
  6.0.0.0:0 [11] Node 2.0.0.0:0 joined at time 11
  6.0.0.0:0 [11] Node 3.0.0.0:0 joined at time 11
- 6.0.0.0:0 [11] Node 4.0.0.0:0 joined at time 11
  6.0.0.0:0 [11] Node 5.0.0.0:0 joined at time 11
  6.0.0.0:0 [11] Node 7.0.0.0:0 joined at time 11
  6.0.0.0:0 [11] Node 8.0.0.0:0 joined at time 11
  6.0.0.0:0 [11] Node 9.0.0.0:0 joined at time 11
  6.0.0.0:0 [11] Node 10.0.0.0:0 joined at time 11
- 4.0.0.0:0 [11] Node 5.0.0.0:0 joined at time 11
- 4.0.0.0:0 [11] Node 2.0.0.0:0 joined at time 11
- 4.0.0.0:0 [11] Node 3.0.0.0:0 joined at time 11
- 4.0.0.0:0 [11] Node 6.0.0.0:0 joined at time 11
- 4.0.0.0:0 [11] Node 7.0.0.0:0 joined at time 11
- 4.0.0.0:0 [11] Node 8.0.0.0:0 joined at time 11
- 4.0.0.0:0 [11] Node 9.0.0.0:0 joined at time 11
- 4.0.0.0:0 [11] Node 10.0.0.0:0 joined at time 11
  3.0.0.0:0 [11] Node 2.0.0.0:0 joined at time 11
  3.0.0.0:0 [11] Node 4.0.0.0:0 joined at time 11
  3.0.0.0:0 [11] Node 5.0.0.0:0 joined at time 11
@@ -96,38 +88,46 @@
  3.0.0.0:0 [11] Node 8.0.0.0:0 joined at time 11
  3.0.0.0:0 [11] Node 9.0.0.0:0 joined at time 11
  3.0.0.0:0 [11] Node 10.0.0.0:0 joined at time 11
- 10.0.0.0:0 [16] Node 2.0.0.0:0 joined at time 16
- 10.0.0.0:0 [16] Node 3.0.0.0:0 joined at time 16
- 10.0.0.0:0 [16] Node 4.0.0.0:0 joined at time 16
- 10.0.0.0:0 [16] Node 5.0.0.0:0 joined at time 16
- 10.0.0.0:0 [16] Node 6.0.0.0:0 joined at time 16
- 10.0.0.0:0 [16] Node 7.0.0.0:0 joined at time 16
- 10.0.0.0:0 [16] Node 8.0.0.0:0 joined at time 16
- 10.0.0.0:0 [16] Node 9.0.0.0:0 joined at time 16
+ 9.0.0.0:0 [16] Node 6.0.0.0:0 joined at time 16
+ 9.0.0.0:0 [16] Node 4.0.0.0:0 joined at time 16
+ 9.0.0.0:0 [16] Node 2.0.0.0:0 joined at time 16
+ 9.0.0.0:0 [16] Node 3.0.0.0:0 joined at time 16
+ 9.0.0.0:0 [16] Node 5.0.0.0:0 joined at time 16
+ 9.0.0.0:0 [16] Node 7.0.0.0:0 joined at time 16
+ 9.0.0.0:0 [16] Node 8.0.0.0:0 joined at time 16
+ 9.0.0.0:0 [16] Node 10.0.0.0:0 joined at time 16
+ 5.0.0.0:0 [16] Node 2.0.0.0:0 joined at time 16
+ 5.0.0.0:0 [16] Node 3.0.0.0:0 joined at time 16
+ 5.0.0.0:0 [16] Node 4.0.0.0:0 joined at time 16
+ 5.0.0.0:0 [16] Node 6.0.0.0:0 joined at time 16
+ 5.0.0.0:0 [16] Node 7.0.0.0:0 joined at time 16
+ 5.0.0.0:0 [16] Node 8.0.0.0:0 joined at time 16
+ 5.0.0.0:0 [16] Node 9.0.0.0:0 joined at time 16
+ 5.0.0.0:0 [16] Node 10.0.0.0:0 joined at time 16
+ 8.0.0.0:0 [21] Node 9.0.0.0:0 joined at time 21
+ 8.0.0.0:0 [21] Node 6.0.0.0:0 joined at time 21
  8.0.0.0:0 [21] Node 4.0.0.0:0 joined at time 21
- 8.0.0.0:0 [21] Node 5.0.0.0:0 joined at time 21
  8.0.0.0:0 [21] Node 2.0.0.0:0 joined at time 21
  8.0.0.0:0 [21] Node 3.0.0.0:0 joined at time 21
- 8.0.0.0:0 [21] Node 6.0.0.0:0 joined at time 21
+ 8.0.0.0:0 [21] Node 5.0.0.0:0 joined at time 21
  8.0.0.0:0 [21] Node 7.0.0.0:0 joined at time 21
- 8.0.0.0:0 [21] Node 9.0.0.0:0 joined at time 21
  8.0.0.0:0 [21] Node 10.0.0.0:0 joined at time 21
- 7.0.0.0:0 [21] Node 5.0.0.0:0 joined at time 21
- 7.0.0.0:0 [21] Node 2.0.0.0:0 joined at time 21
- 7.0.0.0:0 [21] Node 3.0.0.0:0 joined at time 21
- 7.0.0.0:0 [21] Node 4.0.0.0:0 joined at time 21
- 7.0.0.0:0 [21] Node 6.0.0.0:0 joined at time 21
- 7.0.0.0:0 [21] Node 8.0.0.0:0 joined at time 21
- 7.0.0.0:0 [21] Node 9.0.0.0:0 joined at time 21
- 7.0.0.0:0 [21] Node 10.0.0.0:0 joined at time 21
- 8.0.0.0:0 [100] Node failed at time=100
- 9.0.0.0:0 [155] Node 8.0.0.0:0 removed at time 155
- 4.0.0.0:0 [155] Node 8.0.0.0:0 removed at time 155
- 5.0.0.0:0 [160] Node 8.0.0.0:0 removed at time 160
- 1.0.0.0:0 [160] Node 8.0.0.0:0 removed at time 160
- 10.0.0.0:0 [165] Node 8.0.0.0:0 removed at time 165
- 3.0.0.0:0 [165] Node 8.0.0.0:0 removed at time 165
- 2.0.0.0:0 [165] Node 8.0.0.0:0 removed at time 165
- 7.0.0.0:0 [175] Node 8.0.0.0:0 removed at time 175
- 6.0.0.0:0 [185] Node 8.0.0.0:0 removed at time 185
+ 2.0.0.0:0 [21] Node 3.0.0.0:0 joined at time 21
+ 2.0.0.0:0 [21] Node 4.0.0.0:0 joined at time 21
+ 2.0.0.0:0 [21] Node 5.0.0.0:0 joined at time 21
+ 2.0.0.0:0 [21] Node 6.0.0.0:0 joined at time 21
+ 2.0.0.0:0 [21] Node 7.0.0.0:0 joined at time 21
+ 2.0.0.0:0 [21] Node 8.0.0.0:0 joined at time 21
+ 2.0.0.0:0 [21] Node 9.0.0.0:0 joined at time 21
+ 2.0.0.0:0 [21] Node 10.0.0.0:0 joined at time 21
+ 3.0.0.0:0 [100] Node failed at time=100
+ 8.0.0.0:0 [155] Node 3.0.0.0:0 removed at time 155
+ 4.0.0.0:0 [155] Node 3.0.0.0:0 removed at time 155
+ 10.0.0.0:0 [160] Node 3.0.0.0:0 removed at time 160
+ 7.0.0.0:0 [160] Node 3.0.0.0:0 removed at time 160
+ 6.0.0.0:0 [160] Node 3.0.0.0:0 removed at time 160
+ 2.0.0.0:0 [160] Node 3.0.0.0:0 removed at time 160
+ 9.0.0.0:0 [165] Node 3.0.0.0:0 removed at time 165
+ 1.0.0.0:0 [165] Node 3.0.0.0:0 removed at time 165
+ 5.0.0.0:0 [170] Node 3.0.0.0:0 removed at time 170
  1.0.0.0:0 [500] @@time=500

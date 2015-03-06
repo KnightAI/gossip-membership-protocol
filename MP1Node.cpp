@@ -198,34 +198,35 @@ void MP1Node::addMemberListEntry(int id, short port, long heartbeat) {
     delete(newMemberListEntry);    
 }
 
-void MP1Node::delMemberListEntry(int id, short port) {
+void MP1Node::delMemberListEntry(int del_id, short del_port) {
 #ifdef DEBUGLOG
     Address fldNode;
-    memcpy(&fldNode.addr[0], &id, sizeof(int));
-    memcpy(&fldNode.addr[4], &port, sizeof(short));        
+    memcpy(&fldNode.addr[0], &del_id, sizeof(int));
+    memcpy(&fldNode.addr[4], &del_port, sizeof(short));
     this->log->logNodeRemove(&this->memberNode->addr, &fldNode);
 #endif
 
     this->memberNode->heartbeat += 1;
     
     bool member_fnd = false;
-    for (this->memberNode->myPos = this->memberNode->memberList.begin();
-        this->memberNode->myPos != this->memberNode->memberList.end(); 
-        this->memberNode->myPos++) {
+    vector<MemberListEntry>::iterator mbrPos;
+    
+    for (mbrPos = this->memberNode->memberList.begin();
+        mbrPos != this->memberNode->memberList.end();
+        mbrPos++) {
 
-        if ((id == this->memberNode->myPos->id) && 
-            (port == this->memberNode->myPos->port)) { 
-            
+        if ((del_id == mbrPos->id) && (del_port == mbrPos->port)) {
             member_fnd = true;
-            this->memberNode->memberList.erase(this->memberNode->myPos);
+            this->memberNode->memberList.erase(mbrPos);
+            break;
         }                                                                                              
     }
     
     if (!member_fnd) {
         cout << "<bbi>[" << this->par->getcurrtime() << "]in delMemberListEntry of MP1Node:" 
             << this->memberNode->addr.getAddress() 
-            << " id=" << id
-            << " port=" << port
+            << " id=" << del_id
+            << " port=" << del_port
             << " not found !!!"
             << endl;
         exit(EXIT_FAILURE);    
@@ -559,21 +560,22 @@ void MP1Node::nodeLoopOps() {
     
     // check for failures
     bool nofails;
+    vector<MemberListEntry>::iterator mbrPos;
     do {
         nofails = true;
-        for (this->memberNode->myPos = this->memberNode->memberList.begin();
-            this->memberNode->myPos != this->memberNode->memberList.end(); 
-            this->memberNode->myPos++) {
-            if (this->memberNode->myPos->timestamp + TREMOVE < this->par->getcurrtime()) {
-                cout << "detecting potential failure..." 
-                    << " at id=" << this->memberNode->myPos->id
-                    << " port=" << this->memberNode->myPos->port
+        for (mbrPos = this->memberNode->memberList.begin();
+            mbrPos != this->memberNode->memberList.end();
+            mbrPos++) {
+            if (mbrPos->timestamp + TREMOVE < this->par->getcurrtime()) {
+                cout << "detecting potential failure at "
+                    << this->memberNode->addr.getAddress()
+                    << " for " << mbrPos->id
+                    << ":" << mbrPos->port
                     << endl;
                 //this->printNodeData("nodeLoopOps");
                 // this member entry has failed
                 nofails = false;
-                this->delMemberListEntry(this->memberNode->myPos->id, 
-                                        this->memberNode->myPos->port);
+                this->delMemberListEntry(mbrPos->id, mbrPos->port);
                 break;                                                    
             }        
         }                
